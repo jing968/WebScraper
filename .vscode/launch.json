@@ -6,6 +6,15 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ScraperApplication",
+            "request": "launch",
+            "mainClass": "ScraperApplication",
+            "console": "internalConsole",
+            "vmArgs": "--module-path \"./lib\" --add-modules javafx.controls,javafx.fxml",
+            "projectName": "WebScraper_86e90b32"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
